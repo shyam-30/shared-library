@@ -1,3 +1,3 @@
 def call() {
-sh ' mkdir dir1'
+sh ' echo hello dosto this is new fileOne'
 }
