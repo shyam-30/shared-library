@@ -1,0 +1,14 @@
+pipeline{
+agent any
+stages{
+  stage('build'){
+   steps{ sh 'echo helo we are building the pipeline'}
+}
+stage('test'){
+  steps{sh 'echo now we are testing '}
+}
+stage('deploy'){
+ steps{sh 'echo we are deploying'}
+}
+}
+}
